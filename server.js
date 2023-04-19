@@ -1,3 +1,5 @@
+//this is a comment in JS. Same as C++
+
 'use strict';
 var http = require('http');
 var port = process.env.PORT || 1337;
