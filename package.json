@@ -1,0 +1,9 @@
+{
+  "name": "fullstack-js",
+  "version": "0.0.0",
+  "description": "FullstackJS",
+  "main": "server.js",
+  "author": {
+    "name": ""
+  }
+}
