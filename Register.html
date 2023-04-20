@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Register</title>
+</head>
+<body>
+    <a href="index.html">Home Page</a>
+
+    <form>
+        <!-- form tag -->
+        First Name:<input type="text" /><br /> <!-- Text input form-->
+        Last Name:<input type="text" /><br />
+        E-Mail:<input type="email" required /><br />
+        Password: <input type="password" min="5" /><br />
+        Birthday: <input type="date" /><br />
+        Gender: <br />
+        <input type="radio" name="Gender" />Male<br /> <!-- naming will only allow 1 selection in a named group of buttons.-->
+        <input type="radio" name="Gender" />Female<br />
+        <input type="radio" name="Gender" />Prefer not to say<br />
+        Pets: <br />
+        <input type="checkbox" />Cats<br />
+        <input type="checkbox" />Dogs<br />
+        <input type="checkbox" />Birds<br />
+        <input type="checkbox" />Other<br />
+        Cars: <br />
+              <select>
+                  <!--Drop down list-->
+                  <option value="Chevy">Chevy</option> <!-- List options -->
+                  <option value="Ford">Ford</option>
+                  <option value="Dodge">Dodge</option>
+                  <option value="Subaru">Subaru</option>
+              </select><br />
+        <input type="submit" value="Register" /><br /> <!-- Submit tag (submit button) can be changed with value perameter-->
+        <input type="reset" /> <!-- Resets all fields in a form -->
+    </form>
+</body>
+</html>
