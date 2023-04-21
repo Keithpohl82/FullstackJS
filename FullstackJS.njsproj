@@ -31,6 +31,12 @@
     <Content Include="CSS\about.html" />
     <Content Include="CSS\indexcss.html" />
     <Content Include="CSS\login.html" />
+    <Content Include="CSS\Style.css">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="CSS\StyleSheet2.css">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="index.html">
       <SubType>Code</SubType>
     </Content>
