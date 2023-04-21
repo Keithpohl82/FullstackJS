@@ -21,8 +21,15 @@ li {
     display: inline-block;
 }
 
-.webtext { /* class selector */
+.webtext1 { /* class selector */
     border: 3px solid rgba(255, 58, 58, 0.3)
+}
+
+.webtext2 {
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: bold;
 }
 
 #div1 { /* id selector */
