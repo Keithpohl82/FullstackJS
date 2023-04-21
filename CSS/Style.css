@@ -1,4 +1,6 @@
 /* This is a CSS comment */
+/* em is a multiplyer of container*/
+/* rem is relitive to the root component*/
 
 body {
     background-image: url(https://mcdn.wallpapersafari.com/medium/9/90/BqxPI5.jpg);
@@ -21,15 +23,28 @@ li {
     display: inline-block;
 }
 
+img {
+    float: left;
+}
+
+footer {
+    clear: both;
+    color: violet;
+}
+
 .webtext1 { /* class selector */
     border: 3px solid rgba(255, 58, 58, 0.3)
 }
 
-.webtext2 {
+.boxmodel {
     text-decoration: underline;
     text-transform: uppercase;
     font-style: italic;
     font-weight: bold;
+    border: 2px solid red;
+    display: inline-block;
+    padding: 20px; /* padding order is top right bottom left e.g top 5px right 10px bottom 5px left 10px. Single value will apply to all sides. 2 values will apply as top&bot left&right*/
+    margin: 125px; /* Margin works the same as padding */
 }
 
 #div1 { /* id selector */
