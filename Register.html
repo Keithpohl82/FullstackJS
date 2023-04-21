@@ -7,30 +7,31 @@
 </head>
 <body>
     <a href="index.html">Home Page</a>
-
+    <span></span> <!-- Simular to div but inline element container-->
+    <div></div> <!-- Allows use to divid the content across the page as a container-->
     <form>
         <!-- form tag -->
-        First Name:<input type="text" /><br /> <!-- Text input form-->
-        Last Name:<input type="text" /><br />
-        E-Mail:<input type="email" required /><br />
-        Password: <input type="password" min="5" /><br />
-        Birthday: <input type="date" /><br />
+        First Name:<input type="text" name="firstname"/><br /> <!-- Text input form--><!-- name"value" key value pair-->
+        Last Name:<input type="text" name="lastname"/><br />
+        E-Mail:<input type="email" required name="email"/><br />
+        Password: <input type="password" min="5" name="password"/><br />
+        Birthday: <input type="date" name="birthday"/><br />
         Gender: <br />
-        <input type="radio" name="Gender" />Male<br /> <!-- naming will only allow 1 selection in a named group of buttons.-->
-        <input type="radio" name="Gender" />Female<br />
-        <input type="radio" name="Gender" />Prefer not to say<br />
+        <input type="radio" name="Gender" value="Male"/>Male<br /> <!-- naming will only allow 1 selection in a named group of buttons.-->
+        <input type="radio" name="Gender" value="Female"/>Female<br />
+        <input type="radio" name="Gender" value="None"/>Prefer not to say<br />
         Pets: <br />
-        <input type="checkbox" />Cats<br />
-        <input type="checkbox" />Dogs<br />
-        <input type="checkbox" />Birds<br />
-        <input type="checkbox" />Other<br />
+        <input type="checkbox" name="cats"/>Cats<br />
+        <input type="checkbox" name="dogs"/>Dogs<br />
+        <input type="checkbox" name="birds"/>Birds<br />
+        <input type="checkbox" name="other"/>Other<br />
         Cars: <br />
-              <select>
+              <select name="cars">
                   <!--Drop down list-->
-                  <option value="Chevy">Chevy</option> <!-- List options -->
-                  <option value="Ford">Ford</option>
-                  <option value="Dodge">Dodge</option>
-                  <option value="Subaru">Subaru</option>
+                  <option value="Chevy" name="chevy">Chevy</option> <!-- List options -->
+                  <option value="Ford" name="ford">Ford</option>
+                  <option value="Dodge" name="dodge">Dodge</option>
+                  <option value="Subaru" name="subaru">Subaru</option>
               </select><br />
         <input type="submit" value="Register" /><br /> <!-- Submit tag (submit button) can be changed with value perameter-->
         <input type="reset" /> <!-- Resets all fields in a form -->
