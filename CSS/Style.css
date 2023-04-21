@@ -1,9 +1,30 @@
+/* This is a CSS comment */
+
 body {
+    background-image: url(https://mcdn.wallpapersafari.com/medium/9/90/BqxPI5.jpg);
+    background-size: cover;
+    
 }
-h2{
+h2 {
     color: red;
+    text-align: center;
+    border: 5px solid rgba(166, 0, 0, 0.3);
+    cursor: pointer;
 }
 
 p {
-    color: orange;
+    color: darkgrey;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+.webtext { /* class selector */
+    border: 3px solid rgba(255, 58, 58, 0.3)
+}
+
+#div1 { /* id selector */
+    background: rgba(255, 171, 171, 0.25);
 }
