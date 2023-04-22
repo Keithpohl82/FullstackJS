@@ -49,6 +49,8 @@
     <Content Include="Register.html">
       <SubType>Code</SubType>
     </Content>
+    <Content Include="RobotFriend\index.html" />
+    <Content Include="RobotFriend\style.css" />
     <Content Include="server.js" />
     <Content Include="package.json" />
     <Content Include="README.md" />
@@ -56,6 +58,7 @@
   <ItemGroup>
     <Folder Include="CSS\" />
     <Folder Include="ImageSite\" />
+    <Folder Include="RobotFriend\" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsToolsV2.targets" />
   <ProjectExtensions>
