@@ -28,6 +28,9 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="Bootstrap\index.html">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="CSS\about.html" />
     <Content Include="CSS\indexcss.html" />
     <Content Include="CSS\login.html" />
@@ -58,6 +61,7 @@
   <ItemGroup>
     <Folder Include="CSS\" />
     <Folder Include="ImageSite\" />
+    <Folder Include="Bootstrap\" />
     <Folder Include="RobotFriend\" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsToolsV2.targets" />
