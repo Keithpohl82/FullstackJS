@@ -49,6 +49,9 @@
     <Content Include="index.html">
       <SubType>Code</SubType>
     </Content>
+    <Content Include="LandingPageExercise\header.jpg" />
+    <Content Include="LandingPageExercise\index.html" />
+    <Content Include="LandingPageExercise\style.css" />
     <Content Include="Register.html">
       <SubType>Code</SubType>
     </Content>
@@ -62,6 +65,7 @@
     <Folder Include="CSS\" />
     <Folder Include="ImageSite\" />
     <Folder Include="Bootstrap\" />
+    <Folder Include="LandingPageExercise\" />
     <Folder Include="RobotFriend\" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsToolsV2.targets" />
