@@ -17,6 +17,14 @@ h1 {
     font-size: 3rem;
 }
 
+hr {
+    border-color: darkviolet;
+    max-width: 65px;
+    margin: 20px auto;
+    border: 3px solid mediumpurple;
+    opacity: 1;
+}
+
 .btn {
     font-weight: 700;
     border-radius: 300px;
@@ -27,6 +35,11 @@ h1 {
     background-color: darkviolet;
     border-color: rgba(0.3, 0.3, 0.3, 0.3);
     border-width: 5px;
+}
+
+.btn-success:hover {
+    background-color: blueviolet;
+    border-color: rgba(0.3, 0.3, 0.3, 0.3);
 }
 
 .btn-xl {
