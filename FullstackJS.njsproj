@@ -34,9 +34,7 @@
     <Content Include="CSSGrid\index.html">
       <SubType>Code</SubType>
     </Content>
-    <Content Include="CSSGrid\StyleSheet1.css">
-      <SubType>Code</SubType>
-    </Content>
+    <Content Include="CSSGrid\style.css" />
     <Content Include="CSS\about.html" />
     <Content Include="CSS\indexcss.html" />
     <Content Include="CSS\login.html" />
