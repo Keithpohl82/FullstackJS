@@ -65,6 +65,7 @@
     <Folder Include="Bootstrap\" />
     <Folder Include="LandingPageExercise\" />
     <Folder Include="CSSGrid\" />
+    <Folder Include="FrontEnd\" />
     <Folder Include="RobotFriend\" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsToolsV2.targets" />
