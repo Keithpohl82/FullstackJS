@@ -31,6 +31,12 @@
     <Content Include="Bootstrap\index.html">
       <SubType>Code</SubType>
     </Content>
+    <Content Include="CSSGrid\index.html">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="CSSGrid\StyleSheet1.css">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="CSS\about.html" />
     <Content Include="CSS\indexcss.html" />
     <Content Include="CSS\login.html" />
@@ -66,6 +72,7 @@
     <Folder Include="ImageSite\" />
     <Folder Include="Bootstrap\" />
     <Folder Include="LandingPageExercise\" />
+    <Folder Include="CSSGrid\" />
     <Folder Include="RobotFriend\" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsToolsV2.targets" />
