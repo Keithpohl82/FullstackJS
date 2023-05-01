@@ -35,10 +35,18 @@ hr {
     text-transform: uppercase;
 }
 
-.btn-primary {
-    background-color: darkviolet;
+.btn-success {
+    /*background-color: darkviolet;*/
+    background: linear-gradient(red, black, silver);
     border-color: rgba(0.3, 0.3, 0.3, 0.3);
-    border-width: 5px;
+    border-width: 2px;
+    
+}
+
+.btn-success:hover {
+    background: linear-gradient(black, silver, red);
+    border-color: rgba(0.3, 0.3, 0.3, 0.3);
+    border-width: 2px; 
 }
 
 .btn-xl {
