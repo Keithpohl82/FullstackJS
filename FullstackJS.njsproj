@@ -59,10 +59,16 @@
     <Content Include="index.html">
       <SubType>Code</SubType>
     </Content>
+    <Content Include="Script.js">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="Starting\index.html">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="LandingPageExercise\header.jpg" />
     <Content Include="LandingPageExercise\index.html" />
     <Content Include="LandingPageExercise\style.css" />
-    <Content Include="Register.html">
+    <Content Include="Starting\Register.html">
       <SubType>Code</SubType>
     </Content>
     <Content Include="RobotFriend\index.html" />
@@ -79,6 +85,7 @@
     <Folder Include="LandingPageExercise\" />
     <Folder Include="CSSGrid\" />
     <Folder Include="FrontEnd\" />
+    <Folder Include="Starting\" />
     <Folder Include="RobotFriend\" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsToolsV2.targets" />
