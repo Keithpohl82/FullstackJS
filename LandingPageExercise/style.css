@@ -17,6 +17,18 @@ h1 {
     font-size: 3rem;
 }
 
+hr {
+    border-color: darkviolet;
+    max-width: 65px;
+    margin: 20px auto;
+    border: 3px solid mediumpurple;
+    opacity: 1;
+}
+
+.buffer {
+    height: 10rem;
+}
+
 .btn {
     font-weight: 700;
     border-radius: 300px;
@@ -28,10 +40,6 @@ h1 {
     border-color: rgba(0.3, 0.3, 0.3, 0.3);
     border-width: 5px;
 }
-
-.btn-primary:hover {
-        background-color: darkslategrey;
- }
 
 .btn-xl {
     padding: 1rem 2rem;
