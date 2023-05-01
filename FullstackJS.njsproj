@@ -44,6 +44,18 @@
     <Content Include="CSS\StyleSheet2.css">
       <SubType>Code</SubType>
     </Content>
+    <Content Include="FrontEnd\.DS_Store" />
+    <Content Include="FrontEnd\img\data_storage_2_2.png" />
+    <Content Include="FrontEnd\img\desktop_analytics_2.png" />
+    <Content Include="FrontEnd\img\files_2.png" />
+    <Content Include="FrontEnd\img\monitor_coding_2.png" />
+    <Content Include="FrontEnd\img\monitor_settings_2.png" />
+    <Content Include="FrontEnd\img\server_2_2.png" />
+    <Content Include="FrontEnd\img\server_3.png" />
+    <Content Include="FrontEnd\img\server_safe_2.png" />
+    <Content Include="FrontEnd\img\undraw.png" />
+    <Content Include="FrontEnd\index.html" />
+    <Content Include="FrontEnd\style.css" />
     <Content Include="index.html">
       <SubType>Code</SubType>
     </Content>
@@ -61,6 +73,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="CSS\" />
+    <Folder Include="FrontEnd\img\" />
     <Folder Include="ImageSite\" />
     <Folder Include="Bootstrap\" />
     <Folder Include="LandingPageExercise\" />
